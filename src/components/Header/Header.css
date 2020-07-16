@@ -1,0 +1,14 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-container  h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 36px;
+}
+
+.header-container  img {
+  width: 100px;
+}
