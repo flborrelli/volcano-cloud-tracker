@@ -1,13 +1,15 @@
 import React from 'react';
 import './Counter.css';
+import { useState, useEffect } from 'react';
 
-function Counter() {
+function Counter({onIncrement, onDecrement, counterLabel, counterValue}) {
+  
   return (
     <div className="counter-container">
-      <span>Aeroportos</span>
+      <span>{counterLabel}:<span>{counterValue}</span></span>
       <div>
-      <button>+</button>
-      <button>-</button>
+      <button onClick={onIncrement}>+</button>
+      <button onClick={onDecrement}>-</button>
       </div>
     </div>
   );

@@ -1,0 +1,12 @@
+.counter-container {
+  margin-bottom: 50px;
+}
+
+.counter-container div > button{
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  margin: 10px;
+  font-size: 15px;
+  font-weight: bold;
+}
